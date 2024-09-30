@@ -1,0 +1,35 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.body {
+  background: green;
+}
+.container {
+  width: 2.5in; /* Width of a poker card */
+  height: 3.5in; /* Height of a poker card */
+  border: 1px solid #000; /* Black border to define card */
+  border-radius: 10px; /* Rounded corners for card shape */
+  background-color: white; /* Background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Slight shadow to give depth */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  background: green;
+}
+
+.cardTypeBottom {
+  margin-top: 275px;
+  bottom: 10px;
+  font-size: 18px;
+  color: rgb(57, 53, 53);
+}
+.cardTypeUpper {
+  margin-bottom: 275px;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: rgb(57, 53, 53);
+}
